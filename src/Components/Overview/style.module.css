@@ -1,0 +1,143 @@
+.preview {
+    max-width: 1220px;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.preview h2 {
+    color: #FFF;
+    font: 400 30px Poppins;
+    text-align: center;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+}
+
+.preview h1 {
+    color: #FFF;
+    font: 800 80px Poppins;
+    text-align: center;
+    line-height: 101.9%;
+    margin-top: 35px;
+}
+
+.preview p {
+    color: #FFF;
+    font: 400 30px Poppins;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.preview .inps {
+    max-width: 970px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(15px);
+    margin: auto;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.preview .inps input {
+    width: 425px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.80);
+    outline: none;
+    border-width: 0px;
+    font: 400 25px Poppins;
+}
+
+.preview .inps input::placeholder {
+    color: #B4B4B4;
+    font: 400 25px Poppins;
+}
+
+.preview .btn {
+    margin: auto;
+    max-width: 180px;
+    padding: 18px 0;
+    text-align: center;
+    border-radius: 20px;
+    background: #FFF;
+    color: #0A85FF;
+    font: 700 24px Poppins;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 990px) {
+
+    .preview {
+        padding: 5%;
+    }
+
+    .preview h1 {
+        font-size: 50px
+    }
+
+    .preview .inps {
+        max-width: 90%;
+    }
+
+    .preview .inps div {
+        flex: 1 0 100%;
+    }
+
+    .preview .inps input {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .preview h1 {
+        font-size: 40px
+    }
+
+    .preview h2 {
+        font-size: 25px
+    }
+
+    .preview p {
+        font-size: 18px
+    }
+
+    .preview .inps input {
+        font-size: 18px
+    }
+
+    .preview .inps input::placeholder {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .preview h1 {
+        font-size: 25px
+    }
+
+    .preview h2 {
+        font-size: 14px
+    }
+
+
+    .preview p {
+        font-size: 18px
+    }
+
+    .preview .inps input {
+        font-size: 18px
+    }
+
+    .preview .inps input::placeholder {
+        font-size: 18px
+    }
+
+    .preview .btn {
+        font-size: 18px
+    }
+}

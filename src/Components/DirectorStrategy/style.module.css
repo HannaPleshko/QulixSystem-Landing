@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1220px;
+    margin: auto;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .img {
+    background: url(./assets/Alexander\ Arabey_photo.png);
+    width: 500px;
+    height: 923px;
+    background-size: contain;
+}
+
+.wrapper .info {
+    max-width: 570px;
+}
+
+.wrapper .info h2 {
+    color: #0A85FF;
+    font: 600 45px Poppins;
+}
+
+.wrapper .info .subtext {
+    color: #B0B0B0;
+    font: 300 20px Poppins;
+}
+
+.wrapper .info p {
+    color: #3E3E3E;
+    font: 300 25px Poppins;
+}
+
+.wrapper .info .btn {
+    max-width: 250px;
+    border-radius: 20px;
+    background: #33D0CE;
+    padding: 18px 0;
+    color: #FFF;
+    text-align: center;
+    font: 700 24px Poppins;
+    margin: 80px 0 0;
+}
