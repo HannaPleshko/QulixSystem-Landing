@@ -1,9 +1,7 @@
-import PreviewPage from "./Pages/PreviewPage/PreviewPage";
+import PreviewPage from './Pages/PreviewPage/PreviewPage';
 
 function App() {
-  return (
-    <PreviewPage />
-  );
+  return <PreviewPage />;
 }
 
 export default App;

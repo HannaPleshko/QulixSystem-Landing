@@ -1,36 +1,35 @@
 .wrapper {
-    max-width: 1220px;
-    margin: auto;
-    padding: 2%;
+  max-width: 1220px;
+  margin: auto;
+  padding: 2%;
 }
 
 .item {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .item .logoImg {
-    background: url('./assets/Group\ 3739.png') no-repeat;
-    width: 76px;
-    height: 48px;
-    background-size: contain;
+  background: url('./assets/Group\ 3739.png') no-repeat;
+  width: 76px;
+  height: 48px;
+  background-size: contain;
 }
 
 .item div {
-    display: flex;
-    gap: 90px;
+  display: flex;
+  gap: 90px;
 }
 
 .item div p {
-    font: 400 20px Poppins;
-    color: #FFF;
+  font: 400 20px Poppins;
+  color: #fff;
 }
 
 @media screen and (max-width: 990px) {
-
-    .item div:not(:first-child) {
-        display: none;
-    }
+  .item div:not(:first-child) {
+    display: none;
+  }
 }
